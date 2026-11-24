@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>千川素材审核工作台</title>
+  <link rel="stylesheet" href="/static/styles.css?v=0.8">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">VP</span>
+      <div>
+        <h1>千川素材审核工作台</h1>
+        <p>审核建议 · 文案修改 · 复检</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <select id="batchSelect" aria-label="选择批次"></select>
+      <button id="refreshBtn" class="btn ghost" type="button">刷新</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="panel sidebar">
+      <div class="panel-head">
+        <h2>批次与素材</h2>
+        <div class="head-actions">
+          <button id="batchReviewBtn" class="btn small" type="button">审核本批次</button>
+          <button id="newBatchBtn" class="btn small" type="button">新建批次</button>
+        </div>
+      </div>
+
+      <form id="batchForm" class="stack hidden">
+        <label>批次名称
+          <input id="batchName" type="text" placeholder="例如：北极绒 11 月素材" required>
+        </label>
+        <button class="btn primary" type="submit">创建</button>
+      </form>
+
+      <form id="uploadForm" class="stack">
+        <label>视频文件
+          <input id="videoInput" type="file" accept="video/*" required>
+        </label>
+        <label>SRT 字幕（可选）
+          <input id="srtInput" type="file" accept=".srt,.txt">
+        </label>
+        <label>口播稿（可选）
+          <textarea id="scriptInput" rows="4" placeholder="把口播稿或字幕文本贴在这里"></textarea>
+        </label>
+        <div class="field-row">
+          <label>正脸口播
+            <select id="hasFaceSelect">
+              <option value="unknown">不确定</option>
+              <option value="true">有正脸</option>
+              <option value="false">无正脸/旁白</option>
+            </select>
+          </label>
+          <div class="fixed-field">
+            <span>品类</span>
+            <strong>塑身衣</strong>
+          </div>
+        </div>
+        <button id="uploadBtn" class="btn primary" type="submit">上传并加入批次</button>
+      </form>
+
+      <div id="materialList" class="material-list"></div>
+    </aside>
+
+    <section class="panel workspace">
+      <div id="emptyState" class="empty">
+        <strong>选择一条素材开始审核</strong>
+        <span>上传视频后可直接审核；缺字幕时会自动识别口播。</span>
+      </div>
+
+      <div id="workspace" class="hidden">
+        <div class="workspace-head">
+          <div>
+            <h2 id="materialTitle"></h2>
+            <p id="materialMeta" class="muted"></p>
+          </div>
+          <div class="workspace-actions">
+            <button id="transcribeBtn" class="btn ghost" type="button">识别字幕</button>
+            <button id="reviewBtn" class="btn" type="button">重新审核</button>
+            <button id="dryRunBtn" class="btn ghost" type="button">预览修改方案</button>
+            <button id="renderBtn" class="btn ghost" type="button">生成修改版</button>
+            <button id="downloadBtn" class="btn ghost hidden" type="button">下载修改版</button>
+            <button id="exportBtn" class="btn ghost" type="button">导出报告</button>
+            <button id="worklistMdBtn" class="btn ghost" type="button">人工清单</button>
+            <button id="worklistSrtBtn" class="btn ghost" type="button">剪映标记</button>
+            <button id="confirmBtn" class="btn primary" type="button">确认审核</button>
+          </div>
+        </div>
+
+        <div id="jobBanner" class="job-banner hidden">
+          <div class="job-text">
+            <span id="jobStage">准备中</span>
+            <span id="jobPercent">0%</span>
+          </div>
+          <div class="job-track"><div id="jobBar"></div></div>
+        </div>
+
+        <div class="workspace-grid">
+          <div class="video-pane">
+            <video id="videoPlayer" controls preload="metadata"></video>
+            <div id="summary" class="summary"></div>
+            <div id="asrBanner" class="recheck failed hidden"></div>
+            <div id="recheckBanner" class="recheck hidden"></div>
+            <section id="transcriptPanel" class="transcript-panel hidden">
+              <div class="transcript-head">
+                <h3>口播文案</h3>
+                <span id="transcriptCount" class="muted"></span>
+              </div>
+              <div id="transcriptBody" class="transcript-body"></div>
+            </section>
+          </div>
+
+          <div class="findings-pane">
+            <div class="pane-head">
+              <h3>问题与建议</h3>
+              <span id="findingCount" class="muted"></span>
+            </div>
+            <div id="findings" class="findings"></div>
+          </div>
+        </div>
+
+        <div id="planPanel" class="plan-panel hidden"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/static/app.js?v=0.8"></script>
+</body>
+</html>

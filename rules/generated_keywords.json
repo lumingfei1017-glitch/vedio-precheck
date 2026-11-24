@@ -1,0 +1,94 @@
+{
+ "version": "mined-20261124",
+ "source": "audit_feed",
+ "rules": [
+  {
+   "id": "MK-01",
+   "title": "判例高频表述：显瘦十几斤",
+   "category": "夸大功效/虚假塑身效果",
+   "severity": "blocking",
+   "action": "rewrite",
+   "default_method": "WAN_LIPSYNC",
+   "modality": [
+    "audio",
+    "subtitle"
+   ],
+   "patterns": [
+    "显瘦十几斤"
+   ],
+   "negative_patterns": [],
+   "why": "平台拒审原句高频出现（65 个素材 / 9 个账户），由判例自动挖掘。",
+   "rewrite": {
+    "replacements": [],
+    "fallback": "改成穿着体感描述，删除确定性的塑形效果承诺。"
+   },
+   "required_evidence": ""
+  },
+  {
+   "id": "MK-02",
+   "title": "判例高频表述：收腹又提臀",
+   "category": "夸大功效/虚假塑身效果",
+   "severity": "blocking",
+   "action": "rewrite",
+   "default_method": "WAN_LIPSYNC",
+   "modality": [
+    "audio",
+    "subtitle"
+   ],
+   "patterns": [
+    "收腹又提臀"
+   ],
+   "negative_patterns": [],
+   "why": "平台拒审原句高频出现（49 个素材 / 6 个账户），由判例自动挖掘。",
+   "rewrite": {
+    "replacements": [],
+    "fallback": "改成穿着体感描述，删除确定性的塑形效果承诺。"
+   },
+   "required_evidence": ""
+  },
+  {
+   "id": "MK-03",
+   "title": "判例高频表述：脱下来腰腹都是平",
+   "category": "夸大功效/虚假塑身效果",
+   "severity": "blocking",
+   "action": "rewrite",
+   "default_method": "WAN_LIPSYNC",
+   "modality": [
+    "audio",
+    "subtitle"
+   ],
+   "patterns": [
+    "脱下来腰腹都是平"
+   ],
+   "negative_patterns": [],
+   "why": "平台拒审原句高频出现（45 个素材 / 5 个账户），由判例自动挖掘。",
+   "rewrite": {
+    "replacements": [],
+    "fallback": "改成穿着体感描述，删除确定性的塑形效果承诺。"
+   },
+   "required_evidence": ""
+  },
+  {
+   "id": "MK-04",
+   "title": "判例高频表述：轻松显瘦十几斤",
+   "category": "夸大功效/虚假塑身效果",
+   "severity": "blocking",
+   "action": "rewrite",
+   "default_method": "WAN_LIPSYNC",
+   "modality": [
+    "audio",
+    "subtitle"
+   ],
+   "patterns": [
+    "轻松显瘦十几斤"
+   ],
+   "negative_patterns": [],
+   "why": "平台拒审原句高频出现（26 个素材 / 7 个账户），由判例自动挖掘。",
+   "rewrite": {
+    "replacements": [],
+    "fallback": "改成穿着体感描述，删除确定性的塑形效果承诺。"
+   },
+   "required_evidence": ""
+  }
+ ]
+}

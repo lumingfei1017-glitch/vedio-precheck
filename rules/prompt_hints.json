@@ -1,0 +1,364 @@
+{
+ "updated_at": "2026-11-24 10:38:12",
+ "hints": [
+  "紧致",
+  "显瘦",
+  "收紧",
+  "平平",
+  "提拉",
+  "平坦",
+  "平整",
+  "轻松显瘦",
+  "收进",
+  "加压",
+  "收住",
+  "收进去",
+  "紧身",
+  "扁平",
+  "被收",
+  "部收",
+  "腹平",
+  "能显瘦",
+  "有曲线",
+  "塑形效果",
+  "紧致住"
+ ],
+ "detail": [
+  {
+   "pattern": "紧致",
+   "type": "keyword",
+   "materials": 158,
+   "accounts": 11,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "收住腹部肚腩紧致赘肉",
+    "双重的锁定双重的紧致肚子平坦了整体看起来也显瘦了一二十斤",
+    "慢慢的一点一点的紧致我们的身材这样你的身材会越穿越有型"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "显瘦",
+   "type": "keyword",
+   "materials": 156,
+   "accounts": 11,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "这么大的肚子要是瑜伽裤它能藏得住吗久坐肚子有肉的臀部松垮下垂的穿它保暖塑形又显瘦轻松穿出好身材",
+    "双重的锁定双重的紧致肚子平坦了整体看起来也显瘦了一二十斤",
+    "让你轻松显瘦十几斤的视觉效果"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "收紧",
+   "type": "keyword",
+   "materials": 89,
+   "accounts": 7,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "还能够帮助你收紧整条腿上的肉肉",
+    "收紧腹部紧致赘肉",
+    "一直收紧住我们的腹部的赘肉脂肪"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "平平",
+   "type": "keyword",
+   "materials": 62,
+   "accounts": 8,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "整个肚子整理的平平整整",
+    "整个肚子平平整整",
+    "脱下来腰腹都是平平的"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "提拉",
+   "type": "keyword",
+   "materials": 52,
+   "accounts": 8,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "收平你的小腹提拉你的臀型",
+    "收平你的小腹提拉你的臀型一上身就有效果",
+    "提拉紧致"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "平坦",
+   "type": "keyword",
+   "materials": 51,
+   "accounts": 7,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "看这肚子是不是压的又扁又平坦",
+    "双重的锁定双重的紧致肚子平坦了整体看起来也显瘦了一二十斤",
+    "穿出平坦小腹"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "平整",
+   "type": "keyword",
+   "materials": 44,
+   "accounts": 6,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "人物穿着高腰塑身裤后腹部赘肉被收束腹部线条变平整体身材呈现曲线效果",
+    "整个肚子整理的平平整整",
+    "穿前人物肚腩突出肚子肥大穿后人物肚腩平整肚子平坦的穿前穿后对比画面"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "轻松显瘦",
+   "type": "keyword",
+   "materials": 40,
+   "accounts": 7,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "让你轻松显瘦十几斤的视觉效果",
+    "让你上身轻松显瘦十来斤",
+    "轻松显瘦十几斤"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "收进",
+   "type": "keyword",
+   "materials": 39,
+   "accounts": 5,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "整条腿的松垮肉全部收进去了",
+    "穿着塑身衣后腹部被完全收平肚子全部收进去大肚腩直接收平腰线立马撑出来",
+    "模特穿着塑身衣后展示腹部被完全收平肚子全部收进去大肚腩直接收平腰线立马撑出来"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "加压",
+   "type": "keyword",
+   "materials": 37,
+   "accounts": 8,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "针对腰腹这给你加压塑形",
+    "脂肪给你加压还收紧",
+    "分区力学加压精准收紧腰腹胯腿四个维度"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "收住",
+   "type": "keyword",
+   "materials": 36,
+   "accounts": 8,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "收住腹部肚腩紧致赘肉",
+    "收住你肚子上的肉肉把胃包也能给你管理住穿出小蛮腰的即视感",
+    "演绎穿着收腹裤/塑身内裤后肚子肉肉被收起来肚子被摁进去小肚腩被收住身材曲线变流畅配合前后身材对比和紧身包裹展示"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "收进去",
+   "type": "keyword",
+   "materials": 35,
+   "accounts": 4,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "整条腿的松垮肉全部收进去了",
+    "穿着塑身衣后腹部被完全收平肚子全部收进去大肚腩直接收平腰线立马撑出来",
+    "模特穿着塑身衣后展示腹部被完全收平肚子全部收进去大肚腩直接收平腰线立马撑出来"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "紧身",
+   "type": "keyword",
+   "materials": 31,
+   "accounts": 4,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "女性穿着紧身收腹裤特写腹部臀部及大腿根部存在低角度拍摄三角区及衣衫不整露出内衣的镜头",
+    "女性穿着紧身收腹裤突出臀部曲线多次展示臀部配合文案强调‘提臀’‘蜜桃臀’视觉效果",
+    "女性穿着紧身塑形裤臀部‘引力托’设计明显存在臀部特写镜头"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "扁平",
+   "type": "keyword",
+   "materials": 30,
+   "accounts": 7,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "把你扁平的臀型塑造成蜜桃臀的样子",
+    "不管你是扁平臀妈妈臀都可以让你穿出一个饱满挺翘蜜桃臀",
+    "什么妈妈臀扁平臀大鹅蛋臀通通给你收的服服帖帖板板正正"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "被收",
+   "type": "keyword",
+   "materials": 29,
+   "accounts": 6,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "人物穿着高腰塑身裤后腹部赘肉被收束腹部线条变平整体身材呈现曲线效果",
+    "假胯宽大腿粗屁股肉胸下垂等被收紧提拉聚拢",
+    "演绎穿着收腹裤/塑身内裤后肚子肉肉被收起来肚子被摁进去小肚腩被收住身材曲线变流畅配合前后身材对比和紧身包裹展示"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "部收",
+   "type": "keyword",
+   "materials": 29,
+   "accounts": 6,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "整条腿的松垮肉全部收进去了",
+    "穿着塑身衣后腹部被完全收平肚子全部收进去大肚腩直接收平腰线立马撑出来",
+    "模特穿着塑身衣后展示腹部被完全收平肚子全部收进去大肚腩直接收平腰线立马撑出来"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "腹平",
+   "type": "keyword",
+   "materials": 29,
+   "accounts": 6,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "针对于我们肉肉堆积的地方做到一个紧致塑形小腹平坦了腰型也出来了",
+    "模特穿塑身衣后腰腹平坦臀型圆润饱满胸部聚拢",
+    "模特穿着紧身塑身衣展示腰腹平坦胸部和臀部上提的即时视觉效果"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "能显瘦",
+   "type": "keyword",
+   "materials": 28,
+   "accounts": 2,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "穿上都能显瘦",
+    "想要不减肥也能显瘦十多斤",
+    "上身就能显瘦一圈"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "有曲线",
+   "type": "keyword",
+   "materials": 28,
+   "accounts": 5,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "肚子有赘肉的产后宝妈穿该塑身衣后原本突出的大肚腩消失身材呈现出纤细有曲线的效果",
+    "穿前大肚腩穿后平坦有曲线的连体塑身衣穿前穿后对比展示",
+    "展示穿着收腹裤前腹部赘肉分层肚子较大穿着后腹部被压平身材有曲线"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "塑形效果",
+   "type": "keyword",
+   "materials": 27,
+   "accounts": 7,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "多帧内容聚焦特写人物腰腹臀部区域以突出收腹裤的收腹提臀塑形效果为目的重点呈现人物臀部腰腹这些性敏感相关部位区域",
+    "塑形效果绝了身材紧致一大圈肚子上的肉都不见了显瘦十多斤打造小翘臀",
+    "这塑形效果也太绝了吧身材紧致一大圈连肚子上的肉都不见了"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  },
+  {
+   "pattern": "紧致住",
+   "type": "keyword",
+   "materials": 26,
+   "accounts": 4,
+   "passed_materials": 0,
+   "precision_estimate": 1.0,
+   "examples": [
+    "可以紧致住我们的赘肉脂肪打造出这种细腰翘臀的好身材",
+    "紧致住我们的赘肉脂肪打造出这种细腰翘臀的好身材",
+    "慢慢的一点一点的紧致住我们的身材慢慢身材越穿越有型"
+   ],
+   "last_seen": "2026-11-24 09:03:02",
+   "generated_at": "2026-11-24 10:38:12",
+   "status": "candidate"
+  }
+ ]
+}
